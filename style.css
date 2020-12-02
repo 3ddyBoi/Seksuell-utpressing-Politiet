@@ -1,0 +1,11 @@
+/*Farger*/
+.Politiet-blue-grey { color: #4B5364; }
+.Politiet-grey { color: #B2B6BE; }
+.Politiet--yellow { color: #FFD900; }
+.Politiet--cyan { color: #5ECBF3; }
+.Politiet-blue { color: #3A5994; }
+
+.main-h{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+}
