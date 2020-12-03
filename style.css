@@ -119,6 +119,77 @@ body{
   background-color: var(--dark);
 }
 
+/* Footer */
+
 .footer{
-  
+  background-color: var(--blue-gray);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.f-li{
+  list-style-type: none;
+}
+
+.f-a{
+  color: black;
+  text-decoration: none;
+}
+
+.f-ring{
+  font-weight: 700;
+  font-size: 23px;
+  grid-row: 1 / 1;
+}
+
+.f-ring-samtale{
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.f-ring-tips{
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+}
+
+.f-ring-kontakt{
+  grid-row: 1 / 1;
+  grid-column: 3 / 3;
+}
+
+.f-nummer{
+  font-weight: 700;
+  font-size: 23px;
+  grid-row: 2 / 2;
+  grid-column: 1 / 1;
+}
+
+.f-nummer-sms{
+  grid-row: 2 / 2;
+  grid-column: 2 / 2;
+}
+
+.f-om-nettsiden{
+  font-weight: 700;
+  font-size: 23px;
+  grid-row: 3 / 3;
+  grid-column: 1 / 1;
+}
+
+.f-om-peronvern-og-infomasjonskapsler{
+  grid-row: 3 / 3;
+  grid-column: 2 / 2;
+}
+
+.f-om-peronvernerklæring{
+  grid-row: 3 / 3;
+  grid-column: 3 / 3;
+}
+
+.f-om-skoleprosjekt{
+  grid-row: 3 / 3;
+  grid-column: 4 / 4;
 }

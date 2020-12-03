@@ -38,18 +38,18 @@
   </div>
 
   <footer class="footer">
-    <h2 class="f-ring">Ring politiet 02800</h2>
-    <h3 class="">Samtalepriser</h3>
-    <h3 class="">Tips politiet</h3>
-    <h3 class="">Kontakt politiet</h3>
+    <li class="f-li"><a class="f-ring f-a" href="">Ring politiet 02800</a></li>
+    <li class="f-li"><a class="f-ring-samtale f-a" href="">Samtalepriser</a></li>
+    <li class="f-li"><a class="f-ring-tips f-a" href="">Tips politiet</a></li>
+    <li class="f-li"><a class="f-ring-kontakt f-a" href="">Kontakt politiet</a></li>
 
-    <h2 class="">Nødnummer 112</h2>
-    <h3 class="">Send Nød-SMS</h3>
+    <li class="f-li"><a class="f-nummer f-a" href="">Nødnummer 112</a></li>
+    <li class="f-li"><a class="f-nummer-sms f-a" href="">Send Nød-SMS</a></li>
 
-    <h2 class="">Om nettsiden</h2>
-    <h3 class="">Personvern og informasjonskapslar</h3>
-    <h3 class="">Personvernerklæring</h3>
-    <h3 class="">Skoleprosjekt</h3>
+    <li class="f-li"><a class="f-om-nettsiden f-a" href="">Om nettsiden</a></li>
+    <li class="f-li"><a class="f-om-peronvern-og-infomasjonskapsler f-a" href="">Personvern og informasjonskapslar</a></li>
+    <li class="f-li"><a class="f-om-peronvernerklæring f-a" href="">Personvernerklæring</a></li>
+    <li class="f-li"><a class="f-om-skoleprosjekt f-a" href="">Skoleprosjekt</a></li>
   </footer>
 
   <!--JS-->
