@@ -1,11 +1,124 @@
-/*Farger*/
-.Politiet-blue-grey { color: #4B5364; }
-.Politiet-grey { color: #B2B6BE; }
-.Politiet--yellow { color: #FFD900; }
-.Politiet--cyan { color: #5ECBF3; }
-.Politiet-blue { color: #3A5994; }
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
-.main-h{
+:root {
+  --blue-gray: #4B5364;
+  --gray: #B2B6BE;
+  --yellow: #FFD900;
+  --cyan: #5ECBF3;
+  --blue: #3A5994;
+  --white: #F8F0FB;
+  --dark: #403233;
+  --orange:#FE5D26;
+}
+
+body{
+  min-height: 100vh;
   font-family: roboto, sans-serif;
+}
+
+.header{
+  background-color: var(--cyan);
+  padding: 1vh;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+
+.ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.h-li-su{
+  justify-self: end;
+  align-self: center;
+}
+
+.h-a-su{
+  color: black;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.h-a-su:hover{
+  color: var(--yellow);
+}
+
+.h-riksvapen{
+  height: 10vh;
+}
+
+.h-a-riksvapen{
+  grid-column: 2 / 2;
+  justify-self: center;
+}
+
+.h-li-jsu{
+  justify-self: start;
+  align-self: center;
+}
+
+.h-a-jsu:hover{
+  transition: all .2s;
+  color: var(--yellow);
+}
+
+.h-a-jsu{
+  color: black;
+  text-decoration: none;
+}
+
+.top-side{
+  background-color: var(--blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.front-side{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.main-h2{
+  text-align: center;
+  width: 50%;
+  justify-self: center;
+  align-self: end;
+  font-weight: 400;
+  font-size: 25px;
+  opacity: 70%;
+  color: var(--white);
+}
+
+.main-h1{
+  justify-self: center;
+  align-self: start;
   font-weight: 700;
+  font-size: 75px;
+  color: var(--white);
+}
+
+.side2{
+  height: 120vh;
+  background-color: var(--dark);
+}
+
+.footer{
+  
 }
