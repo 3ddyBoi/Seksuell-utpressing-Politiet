@@ -38,18 +38,18 @@
   </div>
 
   <footer class="footer">
-    <li class="f-li"><a class="f-ring f-a" href="">Ring politiet 02800</a></li>
-    <li class="f-li"><a class="f-ring-samtale f-a" href="">Samtalepriser</a></li>
-    <li class="f-li"><a class="f-ring-tips f-a" href="">Tips politiet</a></li>
-    <li class="f-li"><a class="f-ring-kontakt f-a" href="">Kontakt politiet</a></li>
+    <li class="f-li f-ring"><a class="f-a" href="">Ring politiet 02800</a></li>
+    <li class="f-li f-ring-samtale"><a class="f-a" href="">Samtalepriser</a></li>
+    <li class="f-li f-ring-tips"><a class="f-a" href="">Tips politiet</a></li>
+    <li class="f-li f-ring-kontakt"><a class="f-a" href="">Kontakt politiet</a></li>
 
-    <li class="f-li"><a class="f-nummer f-a" href="">Nødnummer 112</a></li>
-    <li class="f-li"><a class="f-nummer-sms f-a" href="">Send Nød-SMS</a></li>
+    <li class="f-li f-nummer"><a class="f-a" href="">Nødnummer 112</a></li>
+    <li class="f-li f-nummer-sms"><a class="f-a" href="">Send Nød-SMS</a></li>
 
-    <li class="f-li"><a class="f-om-nettsiden f-a" href="">Om nettsiden</a></li>
-    <li class="f-li"><a class="f-om-peronvern-og-infomasjonskapsler f-a" href="">Personvern og informasjonskapslar</a></li>
-    <li class="f-li"><a class="f-om-peronvernerklæring f-a" href="">Personvernerklæring</a></li>
-    <li class="f-li"><a class="f-om-skoleprosjekt f-a" href="">Skoleprosjekt</a></li>
+    <li class="f-li f-om-nettsiden"><a class="f-a" href="">Om nettsiden</a></li>
+    <li class="f-li f-om-peronvern-og-infomasjonskapsler"><a class="f-a" href="">Personvern og informasjonskapslar</a></li>
+    <li class="f-li f-om-peronvernerklæring"><a class="f-a" href="">Personvernerklæring</a></li>
+    <li class="f-li f-om-skoleprosjekt"><a class="f-a" href="">Skoleprosjekt</a></li>
   </footer>
 
   <!--JS-->
