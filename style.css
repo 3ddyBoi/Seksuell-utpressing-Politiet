@@ -12,7 +12,9 @@
   --yellow: #FFD900;
   --cyan: #5ECBF3;
   --blue: #3A5994;
+  --blue-nora: #639AFF;
   --white: #F8F0FB;
+  --white-header: #E3DCE6;
   --dark: #403233;
   --orange:#FE5D26;
 }
@@ -23,7 +25,7 @@ body{
 }
 
 .header{
-  background-color: var(--cyan);
+  background-color: var(--blue-nora);
   padding: 1vh;
   position: fixed;
   width: 100%;
@@ -48,7 +50,7 @@ body{
 }
 
 .h-a-su{
-  color: black;
+  color: var(--white-header);
   text-decoration: none;
   transition: all .2s;
 }
@@ -77,7 +79,7 @@ body{
 }
 
 .h-a-jsu{
-  color: black;
+  color: var(--white-header);
   text-decoration: none;
 }
 
@@ -113,16 +115,14 @@ body{
   font-size: 75px;
   color: var(--white);
 }
-
-.side2{
-  height: 120vh;
-  background-color: var(--dark);
-}
-
 /* Footer */
 
 .footer{
   background-color: var(--blue-gray);
+}
+
+.d-footer{
+  padding: 0vw 20vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -183,4 +183,24 @@ body{
 
 .f-om-skoleprosjekt{
   grid-area: 4 / 3 / 5 / 4;
+}
+
+.d-kopirett{
+  background-color: var(--blue-gray);
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: grey;
+  padding: 1vh;
+}
+
+.github{
+  text-decoration: none;
+  color: var(--cyan);
+}
+
+.github:hover{
+  transition: all .2s;
+  color: var(--yellow);
+  text-decoration: underline;
 }
