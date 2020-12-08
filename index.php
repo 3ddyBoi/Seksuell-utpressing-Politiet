@@ -31,7 +31,7 @@
     </div>
 
     <div id="poll">
-      <h3>Do you like PHP and AJAX so far?</h3>
+      <h3>Har du noengang blackmailet noen før?</h3>
       <form>
         Ja, men jeg angrer!: <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
         Tror ikke det: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
