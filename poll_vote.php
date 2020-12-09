@@ -32,32 +32,23 @@ fputs($fp,$insertvote);
 fclose($fp);
 ?>
 
-<h2>Resultater:</h2>
+<h2 class="poll-h2">Har du noen gang deltatt i utpressing?</h2>
 <table>
-<tr>
-<td>Ja, men jeg angrer!:</td>
-<td><img src="poll.gif"
+<h3 class="poll-h3">Ja, men jeg angrer!:</h3>
+<img src="assets\stemme-bar.jpg"
 width='<?php echo(100*round($ja/($nei+$tror+$ja),3)); ?>'
 height='20'>
 <?php echo(100*round($ja/($nei+$tror+$ja),3)); ?>%
-</td>
-</tr>
 
-<tr>
-<td>Tror ikke det:</td>
-<td><img src="poll.gif"
+<h3 class="poll-h3">Tror ikke det:</h3>
+<img src="assets\stemme-bar.jpg"
 width='<?php echo(100*round($tror/($nei+$tror+$ja),3)); ?>'
 height='20'>
 <?php echo(100*round($tror/($nei+$tror+$ja),3)); ?>%
-</td>
-</tr>
 
-<tr>
-<td>Nei jeg er ikke så slem!:</td>
-<td><img src="poll.gif"
+<h3 class="poll-h3">Nei jeg er ikke så slem!:</h3>
+<img src="assets\stemme-bar.jpg"
 width='<?php echo(100*round($nei/($nei+$tror+$ja),3)); ?>'
 height='20'>
 <?php echo(100*round($nei/($nei+$tror+$ja),3)); ?>%
-</td>
-</tr>
 </table>

@@ -12,9 +12,10 @@
   --yellow: #FFD900;
   --cyan: #5ECBF3;
   --blue: #3A5994;
-  --blue-nora: #639AFF;
+  --light-blue: #afcbff;
+  --nav: #639AFF;
   --white: #F8F0FB;
-  --white-header: #E3DCE6;
+  --nav-text: #E3DCE6;
   --dark: #403233;
   --orange:#FE5D26;
 }
@@ -24,15 +25,15 @@ body{
   font-family: roboto, sans-serif;
 }
 
-.header{
-  background-color: var(--blue-nora);
+/* Navbar */
+
+.navbar{
+  background-color: var(--nav);
   padding: 1vh;
   position: fixed;
   width: 100%;
   z-index: 9999;
 }
-
-
 
 .ul{
   display: grid;
@@ -50,7 +51,7 @@ body{
 }
 
 .h-a-su{
-  color: var(--white-header);
+  color: var(--nav-text);
   text-decoration: none;
   transition: all .2s;
 }
@@ -79,9 +80,11 @@ body{
 }
 
 .h-a-jsu{
-  color: var(--white-header);
+  color: var(--nav-text);
   text-decoration: none;
 }
+
+/* Top side */
 
 .top-side{
   background-color: var(--blue);
@@ -117,9 +120,40 @@ body{
 }
 
 /* Poll */
+.side-2{
+  background-color: var(--light-blue);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.gif-side-2 {
+  margin-right: 10vh;
+  justify-self: end;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.gif-juletre{
+  max-width: 30vh;
+  height: auto;
+  padding: 10vh 0vh;
+}
+
 #poll{
-  margin: 0vh 15vh; 
-  width: 50%;
+  padding-top: 10vh;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.poll-h2{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.poll-h3{
+  font-weight: 400;
+  font-size: 17px;
 }
 
 .poll-knapp{
@@ -133,11 +167,153 @@ body{
   width: 16px;
   height: 16px;
 
-  border: 2px solid #999;
+  border: 2px solid var(--orange);
   margin-right: 5px;
 
   position: relative;
   top: 4px;
+}
+
+/* Parallax */
+.parallax-img{
+  background-image: url("assets/sad-mann.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Ikke la deg hypnotiserer */
+/* Animation Three */
+
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+.animate span:nth-of-type(21) {
+	animation-delay: .95s;
+}
+
+.animate {
+	font-size: 50px;
+	margin: 5vh 0 0;
+	border-bottom: 2px solid #ccc;
+}
+
+.animate span {
+	display: inline-block;
+}
+
+.three span {
+	color: #b10e81;
+	opacity: 0;
+	transform: translate(-300px, 0) scale(0);
+	animation: sideSlide .5s forwards;
+}
+
+@keyframes sideSlide {
+	60% {
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	80% {
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	99% {
+		transform: translate(0) scale(1.2);
+		color: #00f0ff;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+		color: #b10e81;
+	}
+}
+
+
+.side-3{
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.gif-side-3{
+  margin-right: 10vh;
+  justify-self: end;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.gif-hypnotisere{
+  max-width: 20vh;
+  height: auto;
+  padding: 5vh 0vh;
+}
+
+.hypnotisere{
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 /* Footer */
