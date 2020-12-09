@@ -33,9 +33,9 @@
     <div id="poll">
       <h3>Har du noengang blackmailet noen før?</h3>
       <form>
-        Ja, men jeg angrer!: <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
-        Tror ikke det: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
-        Nei jeg er ikke så slem!:<input type="radio" name="vote" value="2" onclick="getVote(this.value)">
+        Ja, men jeg angrer!: <input type="radio" class="poll-knapp" name="vote" value="0" onclick="getVote(this.value)">
+        Tror ikke det: <input type="radio" name="vote" class="poll-knapp" value="1" onclick="getVote(this.value)">
+        Nei jeg er ikke så slem!:<input type="radio" class="poll-knapp" name="vote" value="2" onclick="getVote(this.value)">
       </form>
     </div>
 

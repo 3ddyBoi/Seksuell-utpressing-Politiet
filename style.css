@@ -115,6 +115,31 @@ body{
   font-size: 75px;
   color: var(--white);
 }
+
+/* Poll */
+#poll{
+  margin: 0vh 15vh; 
+  width: 50%;
+}
+
+.poll-knapp{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  outline: var(--cyan);
+
+  border:none;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
 /* Footer */
 
 .footer{
