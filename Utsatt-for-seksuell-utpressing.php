@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="shortcut icon" type="image/svg" href="assets/riksvapen-yellow.svg"/>
     <!--SEO-->
-    <title>Seksuell utpressing</title>
+    <title>Utsatt for seksuell utpressing</title>
     <meta name="description" content="Seksuell utpressing">
     <meta name="author" content="Edvard Høiby">
     <!--Font-->
@@ -27,58 +27,23 @@
   <body>
   <nav class="navbar">
     <ul class="ul">
-        <li class="h-li-su"><a class="h-a-su-aktiv" href="index.php">Seksuell utpressing</a></li>
+        <li class="h-li-su"><a class="h-a-su" href="index.php">Seksuell utpressing</a></li>
         <a class="h-a-riksvapen" href="https://www.politiet.no/" target="blank"><img class="h-riksvapen" src="assets/riksvapen-white.svg" alt="Norges riksvåpen"></a>
-      <li class="h-li-jsu"><a class="h-a-jsu" href="utsatt-for-seksuell-utpressing.php">Jeg har blitt utsatt for seksuell utpressing</a></li>
+      <li class="h-li-jsu"><a class="h-a-jsu-aktiv" href="utsatt-for-seksuell-utpressing.php">Jeg har blitt utsatt for seksuell utpressing</a></li>
      </ul>
   </nav>
 
-  <div class="top-side">
-    <div class="front-side">
-      <h2 class="main-h2">Stadig flere personer blir utsatt for seksuell utpressing på internett. Gjerningspersonen presser penger av offeret.</h2>
-      <h1 class="main-h1">Ditt verste mareritt!</h1>
-    </div>
-  </div>
-  
-  <div class="side-2">
-    <div class="gif-side-2">
-      <img class="gif-juletre" src="assets\juletre.gif" alt="snurrende juletre">
-    </div>
-    <div id="poll">
-      <h2 class="poll-h2">Har du noen gang deltatt i utpressing før?</h2>
-      <form>
-        <h3 class="poll-h3">Ja, men jeg angrer!: </h3><input type="radio" class="poll-knapp" name="vote" value="0" onclick="getVote(this.value)">
-        <h3 class="poll-h3">Tror ikke det: </h3><input type="radio" name="vote" class="poll-knapp" value="1" onclick="getVote(this.value)">
-        <h3 class="poll-h3">Nei jeg er ikke så slem!:</h3><input type="radio" class="poll-knapp" name="vote" value="2" onclick="getVote(this.value)">
-      </form>
+  <div class="top-side-utsatt">
+    <div class="front-side-utsatt">
+      <h2 class="main-h2-utsatt">Bryt kontakt, dokumenter og kontakt politi!</h2>
+      <h1 class="main-h1-utsatt">Utsatt for seksuell utpressing? Dette er hva du burde gjøre!</h1>
     </div>
   </div>
 
   <div class="parallax">
-    <div class="parallax-img">
-      <h2 class="parallax-tekst">Den ukjente bruker chattetjenester. Det er ofte unge menn som blir lurt på denne måten.</h2>
+    <div class="parallax-img-utsatt">
     </div>
   </div>
-  
-  <div class="side-3">
-    <div class="gif-side-3">
-      <img class="gif-hypnotisere" src="assets\hypnotisere.gif" alt="hypnotisert-jente">
-    </div>
-    <div class="hypnotisere">
-      <h2 class="hypnotisere-h2">Ikke la deg hypnotisere!</h2>
-      <h3 class="hypnotisere-h3">Det er lett å bli lurt! Uten at ofrene vet det, blir det gjort opptak. Gjerningspersonen truer med å publisere opptaket dersom offeret ikke betaler penger. Det kan være krenkende bilder eller videoer med seksuell karakter.</h3>
-    </div>
-  </div>
-
-  <div class="videoene">
-    <div class="video1">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uY3IarntDlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="video2">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/52JYgQNGBWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-
 
   <footer class="footer">
     <div class="d-footer">

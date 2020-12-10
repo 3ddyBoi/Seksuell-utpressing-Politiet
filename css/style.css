@@ -18,6 +18,7 @@
   --nav-text: #E3DCE6;
   --dark: #403233;
   --orange:#FE5D26;
+  --forside-utpressing-mint: #12664F;
 }
 
 body{
@@ -60,6 +61,11 @@ body{
   color: var(--yellow);
 }
 
+.h-a-su-aktiv{
+  color: var(--yellow);
+  text-decoration: none;
+}
+
 .h-riksvapen{
   height: 10vh;
 }
@@ -77,6 +83,11 @@ body{
 .h-a-jsu:hover{
   transition: all .2s;
   color: var(--yellow);
+}
+
+.h-a-jsu-aktiv{
+  color: var(--yellow);
+  text-decoration: none;
 }
 
 .h-a-jsu{
@@ -176,125 +187,32 @@ body{
 
 /* Parallax */
 .parallax-img{
-  background-image: url("assets/sad-mann.jpg");
-  min-height: 500px;
+  background-image: url("../assets/trist-mann.jpg");
+  min-height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.parallax-tekst{
+  padding: 20vh 0 0 0;
+  font-size: 40px;
+  text-align: center;
+  color: var(--white);
+  text-shadow: 1px 1px 6px black;
+}
 
 /* Ikke la deg hypnotiserer */
-/* Animation Three */
-
-
-.animate span:nth-of-type(2) {
-	animation-delay: .05s;
-}
-.animate span:nth-of-type(3) {
-	animation-delay: .1s;
-}
-.animate span:nth-of-type(4) {
-	animation-delay: .15s;
-}
-.animate span:nth-of-type(5) {
-	animation-delay: .2s;
-}
-.animate span:nth-of-type(6) {
-	animation-delay: .25s;
-}
-.animate span:nth-of-type(7) {
-	animation-delay: .3s;
-}
-.animate span:nth-of-type(8) {
-	animation-delay: .35s;
-}
-.animate span:nth-of-type(9) {
-	animation-delay: .4s;
-}
-.animate span:nth-of-type(10) {
-	animation-delay: .45s;
-}
-.animate span:nth-of-type(11) {
-	animation-delay: .5s;
-}
-.animate span:nth-of-type(12) {
-	animation-delay: .55s;
-}
-.animate span:nth-of-type(13) {
-	animation-delay: .6s;
-}
-.animate span:nth-of-type(14) {
-	animation-delay: .65s;
-}
-.animate span:nth-of-type(15) {
-	animation-delay: .7s;
-}
-.animate span:nth-of-type(16) {
-	animation-delay: .75s;
-}
-.animate span:nth-of-type(17) {
-	animation-delay: .8s;
-}
-.animate span:nth-of-type(18) {
-	animation-delay: .85s;
-}
-.animate span:nth-of-type(19) {
-	animation-delay: .9s;
-}
-.animate span:nth-of-type(20) {
-	animation-delay: .95s;
-}
-.animate span:nth-of-type(21) {
-	animation-delay: .95s;
-}
-
-.animate {
-	font-size: 50px;
-	margin: 5vh 0 0;
-	border-bottom: 2px solid #ccc;
-}
-
-.animate span {
-	display: inline-block;
-}
-
-.three span {
-	color: #b10e81;
-	opacity: 0;
-	transform: translate(-300px, 0) scale(0);
-	animation: sideSlide .5s forwards;
-}
-
-@keyframes sideSlide {
-	60% {
-		transform: translate(20px, 0) scale(1);
-		color: #b10e81;
-	}
-
-	80% {
-		transform: translate(20px, 0) scale(1);
-		color: #b10e81;
-	}
-
-	99% {
-		transform: translate(0) scale(1.2);
-		color: #00f0ff;
-	}
-
-	100% {
-		transform: translate(0) scale(1);
-		opacity: 1;
-		color: #b10e81;
-	}
-}
-
 
 .side-3{
+  border-style: solid;
+  border-width: 5px 0 5px 0;
+  border-color: grey;
+  height: 50vh;
   background-color: var(--white);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -309,12 +227,75 @@ body{
 .gif-hypnotisere{
   max-width: 20vh;
   height: auto;
-  padding: 5vh 0vh;
+  padding: 7vh 0vh;
 }
 
 .hypnotisere{
+  padding: 15vh 70vh 15vh 0vh;
   grid-area: 1 / 2 / 2 / 3;
 }
+
+.hypnotisere-h2{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.hypnotisere-h3{
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/* videoene*/
+.videoene{
+  background-color: var(--light-blue);
+  padding: 0 25vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.video1 {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+  height: 0;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.video1 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video2 {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+  height: 0;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.video2 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
@@ -404,4 +385,52 @@ body{
   transition: all .2s;
   color: var(--yellow);
   text-decoration: underline;
+}
+
+/* Utsatt for seksuell utpressing */
+/* Top side */
+
+.top-side-utsatt{
+  background-color: var(--forside-utpressing-mint);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.front-side-utsatt{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.main-h2-utsatt{
+  text-align: center;
+  width: 50%;
+  justify-self: center;
+  align-self: end;
+  font-weight: 400;
+  font-size: 25px;
+  opacity: 70%;
+  color: var(--white);
+}
+
+.main-h1-utsatt{
+  justify-self: center;
+  text-align: center;
+  align-self: start;
+  font-weight: 700;
+  font-size: 75px;
+  color: var(--white);
+  padding: 0 40vh;
+}
+
+/* Parallax */
+.parallax-img-utsatt{
+  background-image: url("../assets/trist-gutt.jpg");
+  min-height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
