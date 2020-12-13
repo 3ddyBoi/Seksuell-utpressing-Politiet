@@ -35,7 +35,7 @@ fclose($fp);
 <h2 class="poll-h2">Har du noen gang deltatt i utpressing?</h2>
 <table>
 <h3 class="poll-h3">Ja, men jeg angrer!:</h3>
-<img src="\assets\stemme-bar.jpg"
+<img src="assets\stemme-bar.jpg"
 width='<?php echo(100*round($ja/($nei+$tror+$ja),3)); ?>'
 height='20'>
 <?php echo(100*round($ja/($nei+$tror+$ja),3)); ?>%

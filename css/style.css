@@ -483,3 +483,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* terms */
+.terms{
+  padding: 15vh;
+  min-height: 100vh;
+}

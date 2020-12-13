@@ -42,7 +42,7 @@
   
   <div class="side-2">
     <div class="gif-side-2">
-      <img class="gif-juletre" src="assets\juletre.gif" alt="snurrende juletre">
+      <img class="gif-juletre" src="assets\arve-88ditherd.gif" alt="Dans">
     </div>
     <div id="poll">
       <h2 class="poll-h2">Har du noen gang deltatt i utpressing før?</h2>
@@ -109,7 +109,7 @@
 
       <li class="f-li f-li-h f-om-nettsiden"><a class="f-a" href="https://www.politiet.no/finn-ditt-politi/">Finn ditt politi</a></li>
       <li class="f-li f-li-p f-om-peronvern-og-infomasjonskapsler"><a class="f-a" href="">Personvern og informasjonskapslar</a></li>
-      <li class="f-li f-li-p f-om-peronvernerklæring"><a class="f-a" href="">Personvernerklæring</a></li>
+      <li class="f-li f-li-p f-om-peronvernerklæring"><a class="f-a" href="terms.html">Personvernerklæring</a></li>
       <li class="f-li f-li-p f-om-skoleprosjekt"><a class="f-a" href="">Skoleprosjekt</a></li>
     </div>
   </footer>

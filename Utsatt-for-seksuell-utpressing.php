@@ -57,7 +57,7 @@
 
       <li class="f-li f-li-h f-om-nettsiden"><a class="f-a" href="https://www.politiet.no/finn-ditt-politi/">Finn ditt politi</a></li>
       <li class="f-li f-li-p f-om-peronvern-og-infomasjonskapsler"><a class="f-a" href="">Personvern og informasjonskapslar</a></li>
-      <li class="f-li f-li-p f-om-peronvernerklæring"><a class="f-a" href="">Personvernerklæring</a></li>
+      <li class="f-li f-li-p f-om-peronvernerklæring"><a class="f-a" href="terms.html">Personvernerklæring</a></li>
       <li class="f-li f-li-p f-om-skoleprosjekt"><a class="f-a" href="">Skoleprosjekt</a></li>
     </div>
   </footer>
