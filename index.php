@@ -74,8 +74,25 @@
     <div class="video1">
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uY3IarntDlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="video1-tekst">
+        <h2 class="video-h2">Tittel - Seksuell utpressing på nett</h2>
+        <h3 class="video-h3">Innhold i videoen - Seksuell utpressing med økonomisk motiv er en økende trend. Det er ofte organiserte kriminelle som står bak.</h3>
+    </div>
     <div class="video2">
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/52JYgQNGBWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video2-tekst">
+        <h2 class="video-h2">Tittel - SayNO! - En Europol-kampanje mot seksuell utnytting</h2>
+        <h3 class="video-h3">Innhold i videoen - Fra Europol sin kampanje "SayNO!" mot seksuell utnytting.</h3>
+    </div>
+  </div>
+
+  <div class="parallax-side4">
+    <div class="parallax-img-side4">
+      <div class="parallax-tekst-side4">
+        <h2 class="hypnotisere-h2">Har du blitt utsatt for seksuell utpressing før?</h2>
+        <h3 class="hypnotisere-h3"><a class="parallax-link" href="Utsatt-for-seksuell-utpressing.php">Trykk her for å lese hva du burde gjøre!</a></h3>
+      </div>
     </div>
   </div>
 
