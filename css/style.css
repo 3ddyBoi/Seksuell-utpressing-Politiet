@@ -134,6 +134,7 @@ body{
 .side-2{
   background-color: var(--light-blue);
   display: grid;
+  height: 30vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
@@ -141,19 +142,25 @@ body{
 }
 
 .gif-side-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   margin-right: 10vh;
   justify-self: end;
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .gif-juletre{
-  max-width: 30vh;
+  max-width: 40vh;
   height: auto;
-  padding: 10vh 0vh;
+  padding: 0vh 0vh;
+  align-self: center;
 }
 
 #poll{
-  padding-top: 10vh;
+  align-self: center;
   grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -236,13 +243,13 @@ body{
 }
 
 .hypnotisere-h2{
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
 }
 
 .hypnotisere-h3{
   font-weight: 400;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* videoene*/
@@ -353,12 +360,13 @@ body{
 }
 
 .d-footer{
-  padding: 0vw 20vw;
+  padding: 1vh 20vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  justify-content: flex-end;
 }
 
 .f-li{
@@ -500,10 +508,55 @@ body{
 }
 
 .bryt-kontakt-sjell{
-  grid-area: 1 / 1 / 2 / 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: var(--orange);
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: white;
 }
 
+.bryt-kontakt-sjell img{
+  width: 5vh;
+  height: auto;
+  transform: rotate(45deg);
+}
 
+.bryt-kontakt-sjell div{
+  justify-self: center;
+}
+
+.bryt-kontakt-sjell h2{
+  padding: 0px 15vh;
+}
+
+.dont-pay-sjell{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: var(--orange);
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: white;
+}
+
+.dont-pay-sjell img{
+  width: 5vh;
+  height: auto;
+}
+
+.bryt-pay-sjell div{
+  justify-self: center;
+}
+
+.bryt-pay-sjell h2{
+  padding: 0px 15vh;
+}
 
 
 /* terms */
@@ -511,6 +564,7 @@ body{
   padding: 15vh 70vh 15vh 25vh;
   min-height: 100vh;
   line-height: 1.5;
+  background-color: rgb(199, 199, 199);
 }
 
 .terms h1{
@@ -543,9 +597,46 @@ body{
   right: 0;
 }
 
-.top-side-informasjonskapsler{
+.top-side-skoleprosjekt{
   background-color: rgb(102, 0, 0);
   height: 100vh;
   display: flex;
   justify-content: center;
+}
+
+/* Informasjonskapsler */
+
+.informasjonskapsler{
+  background-color:  rgb(199, 199, 199);
+  padding: 15vh 50vh 0vh 50vh;
+  min-height: 66vh;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.informasjonskapsler-div{
+  justify-self: center;
+}
+
+
+.informasjonskapsler h1{
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.informasjonskapsler h2{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.informasjonskapsler h3{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
 }
