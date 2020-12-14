@@ -366,8 +366,14 @@ body{
 }
 
 .f-a{
-  color: black;
+  color: var(--white);
   text-decoration: none;
+}
+
+.f-a:hover{
+  transition: all .2s;
+  color: var(--yellow);
+  text-decoration: underline;
 }
 
 .f-ring{
@@ -418,6 +424,7 @@ body{
 
 .d-kopirett{
   background-color: var(--blue-gray);
+  color: var(--white);
   text-align: center;
   border-style: solid;
   border-width: 1px 0px 0px 0px;
@@ -483,10 +490,62 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* Slik gjør du hvis du er utsatt */
+.gjor-utsatt-utpressing{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.bryt-kontakt-sjell{
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+
 
 
 /* terms */
 .terms{
-  padding: 15vh;
+  padding: 15vh 70vh 15vh 25vh;
   min-height: 100vh;
+  line-height: 1.5;
+}
+
+.terms h1{
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.terms h2{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.terms h3{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.terms li{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.pil-up{
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.top-side-informasjonskapsler{
+  background-color: rgb(102, 0, 0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
