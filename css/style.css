@@ -238,18 +238,18 @@ body{
 }
 
 .hypnotisere{
-  padding: 15vh 70vh 15vh 0vh;
+  padding: 12vh 70vh 0vh 0vh;
   grid-area: 1 / 2 / 2 / 3;
 }
 
 .hypnotisere-h2{
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 .hypnotisere-h3{
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* videoene*/
