@@ -546,15 +546,16 @@ body{
 }
 
 .dont-pay-sjell img{
-  width: 5vh;
+  padding-top: 2vh;
+  width: 13vh;
   height: auto;
 }
 
-.bryt-pay-sjell div{
+.dont-pay-sjell div{
   justify-self: center;
 }
 
-.bryt-pay-sjell h2{
+.dont-pay-sjell h2{
   padding: 0px 15vh;
 }
 
