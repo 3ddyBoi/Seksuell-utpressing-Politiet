@@ -27,7 +27,7 @@
   <body>
     <nav class="navbar">
         <ul class="ul">
-          <li class="h-li-su"><a class="h-a-su-aktiv" href="index.php">Seksuell utpressing</a></li>
+          <li class="h-li-su"><a class="h-a-su-aktiv" href="seksuell-utpressing.php">Seksuell utpressing</a></li>
           <a class="h-a-riksvapen" href="https://www.politiet.no/" target="blank"><img class="h-riksvapen" src="assets/riksvapen-white.svg" alt="Norges riksvåpen"></a>
           <li class="h-li-jsu"><a class="h-a-jsu" href="utsatt-for-seksuell-utpressing.html">Jeg har blitt utsatt for seksuell utpressing</a></li>
       </ul>
